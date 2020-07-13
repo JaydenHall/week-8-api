@@ -1,0 +1,36 @@
+{
+  "name": "week-8-api",
+  "version": "1.0.0",
+  "description": "Animal Collective Nouns Endpoints GET /api/animals/",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node server",
+    "dev": "run-p watch:server",
+    "watch:client": "webpack --watch",
+    "watch:server": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaydenHall/week-8-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JaydenHall/week-8-api/issues"
+  },
+  "homepage": "https://github.com/JaydenHall/week-8-api#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jest": "^26.1.0",
+    "knex": "^0.21.2",
+    "nodemon": "^2.0.4",
+    "npm-run-all": "^4.1.5",
+    "sqlite3": "^5.0.0",
+    "supertest": "^4.0.2"
+  }
+}
